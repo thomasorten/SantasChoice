@@ -21,6 +21,7 @@
 		6AE2407B192CFEFB00B0ACCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE2405D192CFEFB00B0ACCD /* UIKit.framework */; };
 		6AE24083192CFEFB00B0ACCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AE24081192CFEFB00B0ACCD /* InfoPlist.strings */; };
 		6AE24085192CFEFB00B0ACCD /* SantasChoiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE24084192CFEFB00B0ACCD /* SantasChoiceTests.m */; };
+		6AE24090192CFF1700B0ACCD /* ChimneyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE2408F192CFF1700B0ACCD /* ChimneyLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		6AE24080192CFEFB00B0ACCD /* SantasChoiceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SantasChoiceTests-Info.plist"; sourceTree = "<group>"; };
 		6AE24082192CFEFB00B0ACCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6AE24084192CFEFB00B0ACCD /* SantasChoiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SantasChoiceTests.m; sourceTree = "<group>"; };
+		6AE2408E192CFF1700B0ACCD /* ChimneyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChimneyLabel.h; sourceTree = "<group>"; };
+		6AE2408F192CFF1700B0ACCD /* ChimneyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChimneyLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				6AE2406F192CFEFB00B0ACCD /* ViewController.m */,
 				6AE24071192CFEFB00B0ACCD /* Images.xcassets */,
 				6AE24060192CFEFB00B0ACCD /* Supporting Files */,
+				6AE2408E192CFF1700B0ACCD /* ChimneyLabel.h */,
+				6AE2408F192CFF1700B0ACCD /* ChimneyLabel.m */,
 			);
 			path = SantasChoice;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			files = (
 				6AE24070192CFEFB00B0ACCD /* ViewController.m in Sources */,
 				6AE2406A192CFEFB00B0ACCD /* AppDelegate.m in Sources */,
+				6AE24090192CFF1700B0ACCD /* ChimneyLabel.m in Sources */,
 				6AE24066192CFEFB00B0ACCD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
